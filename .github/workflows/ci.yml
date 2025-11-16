@@ -63,8 +63,8 @@ jobs:
           name: coverage-xml-${{ matrix.python-version }}
           path: ./coverage.xml
 
-check-name-registration:
-    runs-on: windows-latest
-    steps:
-      - name: Simple Check Registration
-        run: echo "This job is here to ensure status checks register with branch protection."
+  check-name-registration:
+      runs-on: windows-latest
+      steps:
+        - name: Simple Check Registration
+          run: echo "This job is here to ensure status checks register with branch protection."
